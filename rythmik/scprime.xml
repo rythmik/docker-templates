@@ -1,9 +1,10 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>ScPrime</Name>
+  <Name>scprime-template</Name>
   <Repository>scprime/scprime</Repository>
   <Registry>https://hub.docker.com/r/scprime/scprime</Registry>
   <Network>bridge</Network>
+  <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support/>
@@ -28,10 +29,13 @@ https://scpri.me/network&#xD;
 **Join the Discord:**&#xD;
 https://discord.gg/W5ePbSd</Overview>
   <Category>Backup: Cloud:</Category>
-  <TemplateURL>https://raw.githubusercontent.com/rythmik/docker-templates/main/rythmik/scprime.xml</TemplateURL>
+  <WebUI/>
+  <TemplateURL>false</TemplateURL>
   <Icon>https://raw.githubusercontent.com/rythmik/docker-templates/main/rythmik/images/scprime-icon.png</Icon>
   <ExtraParams>--restart unless-stopped</ExtraParams>
   <PostArgs>-d /scprime -M gctwh</PostArgs>
+  <CPUset/>
+  <DateInstalled/>
   <DonateText/>
   <DonateLink/>
   <Description>ScPrime is a Distributed Datacenter focused on enterprise-grade, cloud storage for backups and disaster recovery running on a global sharing-economy. The backbone of the ScPrime network is its hosts, or Storage Providers. Providers rent out their unused hard drive space to the ScPrime project. Storage Providers earn passive income while helping to build the Distributed Datacenter.&#x200C;&#xD;
