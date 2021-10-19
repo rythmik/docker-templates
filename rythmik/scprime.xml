@@ -28,7 +28,7 @@ https://scpri.me/network&#xD;
 **Join the Discord:**&#xD;
 https://discord.gg/W5ePbSd</Overview>
   <Category>Backup: Cloud: Crypto:</Category>
-  <TemplateURL/>
+  <TemplateURL>https://github.com/rythmik/docker-templates/blob/main/rythmik/scprime.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/rythmik/docker-templates/main/rythmik/images/scprime-icon.png</Icon>
   <ExtraParams>--restart unless-stopped</ExtraParams>
   <PostArgs>-d /scprime -M gctwh</PostArgs>
