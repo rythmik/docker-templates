@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>ScPrime</Name>
+  <Repository>scprime/scprime</Repository>
+  <Registry>https://hub.docker.com/r/scprime/scprime</Registry>
+  <Network>bridge</Network>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://scpri.me</Project>
+  <Overview>ScPrime is a Distributed Datacenter focused on enterprise-grade, cloud storage for backups and disaster recovery running on a global sharing-economy. The backbone of the ScPrime network is its hosts, or Storage Providers. Providers rent out their unused hard drive space to the ScPrime project. Storage Providers earn passive income while helping to build the Distributed Datacenter.&#x200C;&#xD;
+&#xD;
+**Storage Provider Quick Start Guide:**&#xD;
+https://docs.scpri.me/storageproviderindex/cli&#xD;
+&#xD;
+**Uptime Robot Guide for Storage Providers:**&#xD;
+https://docs.scpri.me/storageproviderindex/uptime-robot-guide-for-scprime-storage-providers&#xD;
+&#xD;
+**Storage Provider Settings:**&#xD;
+https://docs.scpri.me/storageproviderindex/settings&#xD;
+&#xD;
+**Current Incentives:**&#xD;
+https://scpri.me/incentives&#xD;
+&#xD;
+**Storage Network Status:**&#xD;
+https://scpri.me/network&#xD;
+&#xD;
+**Join the Discord:**&#xD;
+https://discord.gg/W5ePbSd</Overview>
+  <Category>Backup: Cloud: Crypto:</Category>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/rythmik/docker-templates/main/rythmik/images/scprime-icon.png</Icon>
+  <ExtraParams>--restart unless-stopped</ExtraParams>
+  <PostArgs>-d /scprime -M gctwh</PostArgs>
+  <DonateText/>
+  <DonateLink/>
+  <Description>ScPrime is a Distributed Datacenter focused on enterprise-grade, cloud storage for backups and disaster recovery running on a global sharing-economy. The backbone of the ScPrime network is its hosts, or Storage Providers. Providers rent out their unused hard drive space to the ScPrime project. Storage Providers earn passive income while helping to build the Distributed Datacenter.&#x200C;&#xD;
+&#xD;
+**Storage Provider Quick Start Guide:**&#xD;
+https://docs.scpri.me/storageproviderindex/cli&#xD;
+&#xD;
+**Uptime Robot Guide for Storage Providers:**&#xD;
+https://docs.scpri.me/storageproviderindex/uptime-robot-guide-for-scprime-storage-providers&#xD;
+&#xD;
+**Storage Provider Settings:**&#xD;
+https://docs.scpri.me/storageproviderindex/settings&#xD;
+&#xD;
+**Current Incentives:**&#xD;
+https://scpri.me/incentives&#xD;
+&#xD;
+**Storage Network Status:**&#xD;
+https://scpri.me/network&#xD;
+&#xD;
+**Join the Discord:**&#xD;
+https://discord.gg/W5ePbSd</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>4282</HostPort>
+        <ContainerPort>4282</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>4283</HostPort>
+        <ContainerPort>4283</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/scprime/</HostDir>
+      <ContainerDir>/scprime</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/user</HostDir>
+      <ContainerDir>/storage</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment>
+    <Variable>
+      <Value/>
+      <Name>SCPRIME_WALLET_PASSWORD</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+  <Labels/>
+  <Config Name="Metadata" Target="/scprime" Default="/mnt/user/appdata/scprime/" Mode="rw" Description="Location where metadata is stored including consensus, wallets and file contracts.&amp;lt;br&amp;gt;Container Path: /scprime" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/scprime/</Config>
+  <Config Name="Port 1" Target="4282" Default="4282" Mode="tcp" Description="Open this port in your firewall and forward to your server." Type="Port" Display="always" Required="true" Mask="false">4282</Config>
+  <Config Name="Port 2" Target="4283" Default="4283" Mode="tcp" Description="Open this port in your firewall and forward to your server." Type="Port" Display="always" Required="true" Mask="false">4283</Config>
+  <Config Name="Storage" Target="/storage" Default="/mnt/user" Mode="rw" Description="Path where storage folders are located.&amp;lt;br&amp;gt;Container Path: /storage" Type="Path" Display="always" Required="false" Mask="false">/mnt/user</Config>
+  <Config Name="Wallet Password" Target="SCPRIME_WALLET_PASSWORD" Default="" Mode="" Description="Enter your password to automatically unlock your wallet when the docker starts.&amp;lt;br&amp;gt;&amp;lt;b&amp;gt;NOTE:&amp;lt;/b&amp;gt; Your default password is your seed phrase. Changing your password is recommended." Type="Variable" Display="always" Required="false" Mask="true"/>
+</Container>
