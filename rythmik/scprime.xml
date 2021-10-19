@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>scprime-template</Name>
+  <Name>ScPrime</Name>
   <Repository>scprime/scprime</Repository>
   <Registry>https://hub.docker.com/r/scprime/scprime</Registry>
   <Network>bridge</Network>
@@ -28,7 +28,7 @@ https://scpri.me/network&#xD;
 &#xD;
 **Join the Discord:**&#xD;
 https://discord.gg/W5ePbSd</Overview>
-  <Category>Backup: Cloud:</Category>
+  <Category>Backup: Cloud: Crypto:</Category>
   <WebUI/>
   <TemplateURL>false</TemplateURL>
   <Icon>https://raw.githubusercontent.com/rythmik/docker-templates/main/rythmik/images/scprime-icon.png</Icon>
