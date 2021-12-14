@@ -26,7 +26,7 @@ https://discord.gg/W5ePbSd</Overview>
   <ExtraParams>--restart unless-stopped</ExtraParams>
   <PostArgs>-M gctwh</PostArgs>
   <CPUset/>
-  <DateInstalled>1639442321</DateInstalled>
+  <DateInstalled>1639442849</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Description>ScPrime is a Distributed Datacenter focused on enterprise-grade, cloud storage for backups and disaster recovery running on a global sharing-economy. The backbone of the ScPrime network is its Storage Providers. Providers rent out their unused hard drive space to the ScPrime project to earn passive income while helping to build the Distributed Datacenter.&#x200C;&#xD;
@@ -66,7 +66,7 @@ https://discord.gg/W5ePbSd</Description>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
-      <HostDir>/mnt/user</HostDir>
+      <HostDir/>
       <ContainerDir>/storage</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
@@ -80,9 +80,9 @@ https://discord.gg/W5ePbSd</Description>
   </Environment>
   <Labels/>
   <Config Name="Metadata" Target="/scp-data" Default="/mnt/user/appdata/scprime" Mode="rw" Description="Location where metadata is stored including consensus, wallets and file contracts. 100Gb  of free space on an SSD is recommended.&amp;lt;br&amp;gt;Container Path: /scp-data" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/scprime</Config>
-  <Config Name="Port 1" Target="4282" Default="" Mode="tcp" Description="Open this port in your firewall and forward to your server." Type="Port" Display="always" Required="true" Mask="false">4282</Config>
+  <Config Name="Port 1" Target="4282" Default="4282" Mode="tcp" Description="Open this port in your firewall and forward to your server." Type="Port" Display="always" Required="true" Mask="false">4282</Config>
   <Config Name="Port 2" Target="4283" Default="4283" Mode="tcp" Description="Open this port in your firewall and forward to your server." Type="Port" Display="always" Required="true" Mask="false">4283</Config>
   <Config Name="Port 3" Target="4285" Default="4285" Mode="tcp" Description="Open this port in your firewall and forward to your server." Type="Port" Display="always" Required="true" Mask="false">4285</Config>
   <Config Name="Wallet Password" Target="SCPRIME_WALLET_PASSWORD" Default="" Mode="" Description="Enter your password to automatically unlock your wallet when the docker starts.&amp;lt;br&amp;gt;&amp;lt;b&amp;gt;NOTE:&amp;lt;/b&amp;gt; Your default password is your seed phrase unless changed." Type="Variable" Display="always" Required="false" Mask="true"/>
-  <Config Name="Storage" Target="/storage" Default="/mnt/user" Mode="rw" Description="Path where shared folders are located.&amp;lt;br&amp;gt;Container Path: /storage" Type="Path" Display="always" Required="false" Mask="false">/mnt/user</Config>
+  <Config Name="Storage" Target="/storage" Default="" Mode="rw" Description="Path where shared folders are located.&amp;lt;br&amp;gt;Container Path: /storage" Type="Path" Display="always" Required="false" Mask="false"/>
 </Container>
