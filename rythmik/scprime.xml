@@ -1,13 +1,12 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Container version="2">
-  <Name>scprime-template</Name>
+  <Name>scprime</Name>
   <Repository>scprime/scprime</Repository>
   <Registry>https://hub.docker.com/r/scprime/scprime</Registry>
   <Network>bridge</Network>
-  <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://discord.gg/W5ePbSd</Support>
   <Project>https://scpri.me</Project>
   <Overview>ScPrime is a Distributed Datacenter focused on enterprise-grade, cloud storage for backups and disaster recovery running on a global sharing-economy. The backbone of the ScPrime network is its Storage Providers. Providers rent out their unused hard drive space to the ScPrime project to earn passive income while helping to build the Distributed Datacenter.&#x200C;&#xD;
 &#xD;
@@ -17,15 +16,14 @@ https://docs.scpri.me/storageproviderindex&#xD;
 **Storage Network Status:**&#xD;
 https://scpri.me/network&#xD;
 &#xD;
-**Join the Discord:**&#xD;
+**Join the Discord for Help:**&#xD;
 https://discord.gg/W5ePbSd</Overview>
   <Category>Backup: Cloud:</Category>
   <WebUI/>
-  <TemplateURL/>
+  <TemplateURL>https://github.com/rythmik/docker-templates/blob/main/rythmik/scprime.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/rythmik/docker-templates/main/rythmik/images/scprime-icon.png</Icon>
   <ExtraParams>--restart unless-stopped</ExtraParams>
   <PostArgs>-M gctwh</PostArgs>
-  <CPUset/>
   <DateInstalled>1639442849</DateInstalled>
   <DonateText/>
   <DonateLink/>
@@ -37,7 +35,7 @@ https://docs.scpri.me/storageproviderindex&#xD;
 **Storage Network Status:**&#xD;
 https://scpri.me/network&#xD;
 &#xD;
-**Join the Discord:**&#xD;
+**Join the Discord for Help:**&#xD;
 https://discord.gg/W5ePbSd</Description>
   <Networking>
     <Mode>bridge</Mode>
