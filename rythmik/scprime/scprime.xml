@@ -77,7 +77,7 @@ https://discord.gg/W5ePbSd</Description>
     </Variable>
   </Environment>
   <Labels/>
-  <Config Name="Metadata" Target="/scp-data" Default="/mnt/user/appdata/scprime" Mode="rw" Description="Location where metadata is stored including consensus, wallets and file contracts. 100Gb of free space on an SSD is recommended.&amp;lt;br&amp;gt;Container Path: /scp-data" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/scprime</Config>
+  <Config Name="Metadata" Target="/scp-data" Default="/mnt/user/appdata/scprime" Mode="rw" Description="Location where metadata is stored including consensus, wallets and file contracts. 100Gb of free space is recommended, SSD preferred.&amp;lt;br&amp;gt;Container Path: /scp-data" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/scprime</Config>
   <Config Name="Port 1" Target="4282" Default="4282" Mode="tcp" Description="Open this port in your firewall and forward to your server." Type="Port" Display="always" Required="true" Mask="false">4282</Config>
   <Config Name="Port 2" Target="4283" Default="4283" Mode="tcp" Description="Open this port in your firewall and forward to your server." Type="Port" Display="always" Required="true" Mask="false">4283</Config>
   <Config Name="Port 3" Target="4285" Default="4285" Mode="tcp" Description="Open this port in your firewall and forward to your server." Type="Port" Display="always" Required="true" Mask="false">4285</Config>
