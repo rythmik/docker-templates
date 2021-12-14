@@ -8,15 +8,15 @@
   <Privileged>false</Privileged>
   <Support>https://discord.gg/W5ePbSd</Support>
   <Project>https://scpri.me</Project>
-  <Overview>ScPrime is a Distributed Datacenter focused on enterprise-grade, cloud storage for backups and disaster recovery running on a global sharing-economy. The backbone of the ScPrime network is its Storage Providers who rent out their unused hard drive space to earn passive income.&#x200C;&#xD;
+  <Overview>ScPrime is a Distributed Datacenter focused on enterprise-grade, cloud storage for backups and disaster recovery running on a global sharing-economy. The backbone of the ScPrime network is its Storage Providers who rent out their unused hard drive space to earn passive income.&#xD;
 &#xD;
-**Storage Provider Docs:**&#xD;
+Storage Provider Docs:&#xD;
 https://docs.scpri.me/storageproviderindex&#xD;
 &#xD;
-**Storage Network Status:**&#xD;
+Storage Network Status:&#xD;
 https://scpri.me/network&#xD;
 &#xD;
-**Join the Discord for Help:**&#xD;
+Join the Discord for Help:&#xD;
 https://discord.gg/W5ePbSd</Overview>
   <Beta>False</Beta>
   <Category>Cloud: Crypto:</Category>
@@ -28,15 +28,15 @@ https://discord.gg/W5ePbSd</Overview>
   <PostArgs>-M gctwh</PostArgs>
   <DonateText/>
   <DonateLink/>
-  <Description>ScPrime is a Distributed Datacenter focused on enterprise-grade, cloud storage for backups and disaster recovery running on a global sharing-economy. The backbone of the ScPrime network is its Storage Providers who rent out their unused hard drive space to earn passive income.&#x200C;&#xD;
+  <Description>ScPrime is a Distributed Datacenter focused on enterprise-grade, cloud storage for backups and disaster recovery running on a global sharing-economy. The backbone of the ScPrime network is its Storage Providers who rent out their unused hard drive space to earn passive income.&#xD;
 &#xD;
-**Storage Provider Docs:**&#xD;
+Storage Provider Docs:&#xD;
 https://docs.scpri.me/storageproviderindex&#xD;
 &#xD;
-**Storage Network Status:**&#xD;
+Storage Network Status:&#xD;
 https://scpri.me/network&#xD;
 &#xD;
-**Join the Discord for Help:**&#xD;
+Join the Discord for Help:&#xD;
 https://discord.gg/W5ePbSd</Description>
   <Networking>
     <Mode>bridge</Mode>
