@@ -21,7 +21,7 @@ Join the Discord for Help:&#xD;
 https://discord.gg/W5ePbSd</Overview>
   <Category>Cloud: Crypto:</Category>
   <WebUI/>
-  <TemplateURL>https://github.com/rythmik/docker-templates/blob/main/rythmik/scprime.xml</TemplateURL>
+  <TemplateURL>https://github.com/rythmik/docker-templates/blob/main/rythmik/scprime/scprime.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/rythmik/docker-templates/main/rythmik/images/scprime-icon.png</Icon>
   <ExtraParams>--restart unless-stopped</ExtraParams>
   <PostArgs>-M gctwh</PostArgs>
