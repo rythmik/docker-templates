@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>ScPrime</Name>
+  <Name>scprime</Name>
   <Repository>scprime/scprime</Repository>
   <Registry>https://hub.docker.com/r/scprime/scprime</Registry>
   <Network>bridge</Network>
