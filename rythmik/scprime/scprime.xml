@@ -11,13 +11,13 @@
   <Project>https://scpri.me</Project>
   <Overview>ScPrime is a cryptocurrency project targeting public cloud services with a blockchain based ecosystem to pay individuals to store data around the globe using smart contracts and cryptographic proofs to ensure accuracy, security and redundancy.&#xD;
 &#xD;
-Storage Provider Docs:&#xD;
+**Documentation**:&#xD;
 https://docs.scpri.me/storageproviderindex&#xD;
 &#xD;
-Storage Network Status:&#xD;
+**Storage Network Status**:&#xD;
 https://scpri.me/network&#xD;
 &#xD;
-Join the Discord for Help:&#xD;
+**Join the Discord for Help**:&#xD;
 https://discord.gg/W5ePbSd</Overview>
   <Category>Cloud: Crypto:</Category>
   <WebUI/>
@@ -29,13 +29,13 @@ https://discord.gg/W5ePbSd</Overview>
   <DonateLink/>
   <Description>ScPrime is a cryptocurrency project targeting public cloud services with a blockchain based ecosystem to pay individuals to store data around the globe using smart contracts and cryptographic proofs to ensure accuracy, security and redundancy.&#xD;
 &#xD;
-Storage Provider Docs:&#xD;
+**Documentation**:&#xD;
 https://docs.scpri.me/storageproviderindex&#xD;
 &#xD;
-Storage Network Status:&#xD;
+**Storage Network Status**:&#xD;
 https://scpri.me/network&#xD;
 &#xD;
-Join the Discord for Help:&#xD;
+**Join the Discord for Help**:&#xD;
 https://discord.gg/W5ePbSd</Description>
   <Networking>
     <Mode>bridge</Mode>
