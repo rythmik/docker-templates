@@ -11,14 +11,21 @@
   <Project>https://scpri.me</Project>
   <Overview>ScPrime is a cryptocurrency project targeting public cloud services with a blockchain based ecosystem to pay individuals to store data around the globe using smart contracts and cryptographic proofs to ensure accuracy, security and redundancy.&#xD;
 &#xD;
-**Documentation**:&#xD;
+**Setup:**&#xD;
+Command-line is required to configure your storage provider instance.&#xD;
+&#xD;
+Open the Unraid terminal and enter: **docker exec -it scprime sh**&#xD;
+&#xD;
+**Documentation:**&#xD;
 https://docs.scpri.me/storageproviderindex&#xD;
 &#xD;
-**Storage Network Status**:&#xD;
+**Storage Network Status:**&#xD;
 https://scpri.me/network&#xD;
 &#xD;
-**Join the Discord for Help**:&#xD;
-https://discord.gg/W5ePbSd</Overview>
+**Join the Discord for Help:**&#xD;
+https://discord.gg/W5ePbSd&#xD;
+&#xD;
+Unraid specific help can be found in the Discord: **#support-other**</Overview>
   <Category>Cloud: Crypto:</Category>
   <WebUI/>
   <TemplateURL>https://github.com/rythmik/docker-templates/blob/main/rythmik/scprime/scprime.xml</TemplateURL>
@@ -29,14 +36,21 @@ https://discord.gg/W5ePbSd</Overview>
   <DonateLink/>
   <Description>ScPrime is a cryptocurrency project targeting public cloud services with a blockchain based ecosystem to pay individuals to store data around the globe using smart contracts and cryptographic proofs to ensure accuracy, security and redundancy.&#xD;
 &#xD;
-**Documentation**:&#xD;
+**Setup:**&#xD;
+Command-line is required to configure your storage provider instance.&#xD;
+&#xD;
+Open the Unraid terminal and enter: **docker exec -it scprime sh**&#xD;
+&#xD;
+**Documentation:**&#xD;
 https://docs.scpri.me/storageproviderindex&#xD;
 &#xD;
-**Storage Network Status**:&#xD;
+**Storage Network Status:**&#xD;
 https://scpri.me/network&#xD;
 &#xD;
-**Join the Discord for Help**:&#xD;
-https://discord.gg/W5ePbSd</Description>
+**Join the Discord for Help:**&#xD;
+https://discord.gg/W5ePbSd&#xD;
+&#xD;
+Unraid specific help can be found in the Discord: **#support-other**</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
