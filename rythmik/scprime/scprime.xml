@@ -25,7 +25,7 @@ https://scpri.me/network&#xD;
 **Join the Discord for Help:**&#xD;
 https://discord.gg/W5ePbSd&#xD;
 &#xD;
-Unraid specific help can be found in the Discord: **#support-other**</Overview>
+Docker specific help can be found in the Discord: **#support-other**</Overview>
   <Category>Cloud: Crypto:</Category>
   <WebUI/>
   <TemplateURL>https://github.com/rythmik/docker-templates/blob/main/rythmik/scprime/scprime.xml</TemplateURL>
@@ -50,7 +50,7 @@ https://scpri.me/network&#xD;
 **Join the Discord for Help:**&#xD;
 https://discord.gg/W5ePbSd&#xD;
 &#xD;
-Unraid specific help can be found in the Discord: **#support-other**</Description>
+Docker specific help can be found in the Discord: **#support-other**</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
