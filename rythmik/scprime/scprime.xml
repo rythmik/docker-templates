@@ -36,7 +36,7 @@ Docker specific help can be found in the Discord: **#support-other**</Overview>
   <TemplateURL>false</TemplateURL>
   <Icon>https://raw.githubusercontent.com/rythmik/docker-templates/main/rythmik/images/scprime-icon.png</Icon>
   <ExtraParams>--restart unless-stopped</ExtraParams>
-  <PostArgs>-M gctwh --host-addr :4282  --host-api-addr :4283</PostArgs>
+  <PostArgs>-M gctwh</PostArgs>
   <DonateText/>
   <DonateLink/>
   <Description>ScPrime is a cryptocurrency project targeting public cloud services with a blockchain based ecosystem to pay individuals to store data around the globe using smart contracts and cryptographic proofs to ensure accuracy, security and redundancy.&#xD;
