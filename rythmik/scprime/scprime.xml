@@ -11,7 +11,7 @@
   <Project>https://scpri.me</Project>
   <Overview>ScPrime is a cryptocurrency project targeting public cloud services with a blockchain based ecosystem to pay individuals to store data around the globe using smart contracts and cryptographic proofs to ensure accuracy, security and redundancy.&#xD;
 &#xD;
-**v1.6.2 Changes:**&#xD;
+**Default Port Change v1.6.2:**&#xD;
 ScPrime v1.6.2 now uses the default ports 4282 and 4283.&#xD;
 &#xD;
 If you're upgrading from v1.6.0 and using the default ports, you can remove port 4285.&#xD;
@@ -41,7 +41,7 @@ Docker specific help can be found in the Discord: **#support-other**</Overview>
   <DonateLink/>
   <Description>ScPrime is a cryptocurrency project targeting public cloud services with a blockchain based ecosystem to pay individuals to store data around the globe using smart contracts and cryptographic proofs to ensure accuracy, security and redundancy.&#xD;
 &#xD;
-**v1.6.2 Changes:**&#xD;
+**Default Port Change v1.6.2:**&#xD;
 ScPrime v1.6.2 now uses the default ports 4282 and 4283.&#xD;
 &#xD;
 If you're upgrading from v1.6.0 and using the default ports, you can remove port 4285.&#xD;
