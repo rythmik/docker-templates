@@ -11,10 +11,11 @@
   <Project>https://scpri.me</Project>
   <Overview>ScPrime is a cryptocurrency project targeting public cloud services with a blockchain based ecosystem to pay individuals to store data around the globe using smart contracts and cryptographic proofs to ensure accuracy, security and redundancy.&#xD;
 &#xD;
-**Default Port Change v1.6.2:**&#xD;
-ScPrime v1.6.2 now uses the default ports 4282 and 4283.&#xD;
+**Licensing Requirement:**&#xD;
+A license is now required to receive data from SCP Corp.&#xD;
 &#xD;
-If you're upgrading from v1.6.0 and using the default ports, you can remove port 4285.&#xD;
+Learn more about licensing here:&#xD;
+https://docs.scpri.me/information/licensing-frequently-asked-questions&#xD;
 &#xD;
 **Setup:**&#xD;
 Command-line is required to configure your storage provider instance.&#xD;
@@ -41,10 +42,11 @@ Docker specific help can be found in the Discord: **#support-other**</Overview>
   <DonateLink/>
   <Description>ScPrime is a cryptocurrency project targeting public cloud services with a blockchain based ecosystem to pay individuals to store data around the globe using smart contracts and cryptographic proofs to ensure accuracy, security and redundancy.&#xD;
 &#xD;
-**Default Port Change v1.6.2:**&#xD;
-ScPrime v1.6.2 now uses the default ports 4282 and 4283.&#xD;
+**Licensing Requirement:**&#xD;
+A license is now required to receive data from SCP Corp.&#xD;
 &#xD;
-If you're upgrading from v1.6.0 and using the default ports, you can remove port 4285.&#xD;
+Learn more about licensing here:&#xD;
+https://docs.scpri.me/information/licensing-frequently-asked-questions&#xD;
 &#xD;
 **Setup:**&#xD;
 Command-line is required to configure your storage provider instance.&#xD;
