@@ -48,7 +48,7 @@ General docker installation help can be found in the Discord: **#support-other**
   <Requires>This tool requires an already running and configured ScPrime Xa-Miner (Basic version) Storage Provider with a defined API Password.&#xD;
 &#xD;
 Creating a custom (user-defined) docker network is recommended. Instructions included.</Requires>
-  <Config Name="API Password" Target="SCPRIME_API_PASSWORD" Default="" Mode="" Description="In your ScPrime Xa-Miner (Basic version) storage provider instance, create an API Password and then enter that here." Type="Variable" Display="always" Required="false" Mask="false">
+  <Config Name="API Password" Target="SCPRIME_API_PASSWORD" Default="" Mode="" Description="In your ScPrime Xa-Miner (Basic version) storage provider instance, create an API Password and then enter that here." Type="Variable" Display="always" Required="false" Mask="false"></Config>
   <Changes>### 2022.10.24
 - Initial release</Changes>
 </Container>
