@@ -12,7 +12,7 @@
   <Overview>A tool for ScPrime Storage Providers to set an arbitrary price and have the price auto-adjust an amount around that price. It also provides auto-reannouncement of the host address when IP address changes.&#xD;
 &#xD;
 **Note:**&#xD;
-This container will work by default with an ScPrime docker container named **scprime** (case sensitive) using the default SPD Hosting Port **4282**.&#xD;
+The setup instructions below will work with an ScPrime docker container named **scprime** (case sensitive) using the default SPD Hosting Port **4282**.&#xD;
 &#xD;
 All other configurations will require editing **Post Arguments** (edit this template in Advanced View):&#xD;
 https://docs.scpri.me/storageproviderindex/linux-supervisor-lite-installation-guide&#xD;
