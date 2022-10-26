@@ -14,12 +14,12 @@
 **Note:**&#xD;
 The setup instructions below will work with an ScPrime docker container named **scprime** (case sensitive) using the default SPD Hosting Port **4282**.&#xD;
 &#xD;
-All other configurations will require editing **Post Arguments** (edit this template in Advanced View):&#xD;
+Other configurations will require editing **Post Arguments** (edit this template in Advanced View):&#xD;
 https://docs.scpri.me/storageproviderindex/linux-supervisor-lite-installation-guide&#xD;
 &#xD;
 **Pre-Installation Setup:**&#xD;
 Create a custom (user-defined) docker network, ex. scprime:&#xD;
-Open the Unraid terminal and type **docker network create scprime**&#xD;
+Open the Unraid terminal and enter: **docker network create scprime**&#xD;
 &#xD;
 Edit your ScPrime Xa-Miner (Basic version) container template:&#xD;
 Under Network Type, choose **custom : scprime**&#xD;
@@ -35,7 +35,7 @@ Apply changes to the Supervisor-Lite template&#xD;
 **Join the Discord for Help (Recommended):**&#xD;
 https://discord.gg/scprime&#xD;
 &#xD;
-General docker installation help can be found in the Discord: **#support-other**</Overview>
+General docker installation help can be found in Discord: **#support-other**</Overview>
   <Category>Cloud: Crypto:</Category>
   <WebUI/>
   <TemplateURL>false</TemplateURL>
