@@ -28,7 +28,7 @@ https://scpri.me/network&#xD;
 **Join the Discord for Help (Recommended):**&#xD;
 https://discord.gg/scprime&#xD;
 &#xD;
-General docker installation help can be found in Discord: **#support-other**</Overview>
+General installation help can be found in Discord: **#support-diy**</Overview>
   <Category>Cloud: Crypto:</Category>
   <WebUI/>
   <TemplateURL>false</TemplateURL>
@@ -49,6 +49,10 @@ https://docs.scpri.me/diy-getting-started/collateral</Requires>
   <Config Name="Wallet Password" Target="SCPRIME_WALLET_PASSWORD" Default="" Mode="" Description="Enter your password to automatically unlock your wallet when the docker container starts. NOTE: Your default password is your seed phrase unless changed. WARNING: If you're using the Unraid My Servers plugin to backup your Flash drive, the backups will save to Unraid's cloud servers unencrypted, which includes the password entered into this field. Please make sure you understand the implications of this." Type="Variable" Display="always" Required="false" Mask="true"/>
   <Config Name="API Password" Target="SCPRIME_API_PASSWORD" Default="" Mode="" Description="Create an optional API password, which is used when connecting outside of the container. Required if using with Supervisor-Lite add-on tool" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="Storage" Target="/storage" Default="" Mode="rw" Description="Path where shared folders are located." Type="Path" Display="always" Required="false" Mask="false"/>
-  <Changes>### 2022.10.24
-- Added: SCPRIME_API_PASSWORD variable</Changes>
+  <Changes>
+### 2023.1.15
+ - Update: Discord support channel info
+### 2022.10.24
+ - Added: SCPRIME_API_PASSWORD variable
+  </Changes>
 </Container>
