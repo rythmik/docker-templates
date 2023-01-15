@@ -51,7 +51,7 @@ Creating a custom (user-defined) docker network is recommended. Instructions inc
   <Config Name="API Password" Target="SCPRIME_API_PASSWORD" Default="" Mode="" Description="In your ScPrime Xa-Miner (Basic version) storage provider instance, create an API Password and then enter that here." Type="Variable" Display="always" Required="false" Mask="false"></Config>
   <Changes>
 ### 2023.1.15
- - Update to Discord support channel
+ - Update: Discord support channel info
 ### 2022.10.24
  - Initial release
   </Changes>  
