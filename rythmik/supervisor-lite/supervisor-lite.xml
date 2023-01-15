@@ -35,7 +35,7 @@ Apply changes to the Supervisor-Lite template&#xD;
 **Join the Discord for Help (Recommended):**&#xD;
 https://discord.gg/scprime&#xD;
 &#xD;
-General docker installation help can be found in Discord: **#support-other**</Overview>
+General installation help can be found in Discord: **#support-diy**</Overview>
   <Category>Cloud: Crypto:</Category>
   <WebUI/>
   <TemplateURL>false</TemplateURL>
@@ -49,6 +49,10 @@ General docker installation help can be found in Discord: **#support-other**</Ov
 &#xD;
 Creating a custom (user-defined) docker network is recommended. Instructions included.</Requires>
   <Config Name="API Password" Target="SCPRIME_API_PASSWORD" Default="" Mode="" Description="In your ScPrime Xa-Miner (Basic version) storage provider instance, create an API Password and then enter that here." Type="Variable" Display="always" Required="false" Mask="false"></Config>
-  <Changes>### 2022.10.24
-- Initial release</Changes>
+  <Changes>
+### 2023.1.15
+ - Update to Discord support channel
+### 2022.10.24
+ - Initial release
+  </Changes>  
 </Container>
